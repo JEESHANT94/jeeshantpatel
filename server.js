@@ -3,6 +3,9 @@ var express = require("express");
 var app = express();
 
 app.get("/", (req, res) => {
-  res.send("hello from conestoga!");
+  res.send("Jeeshant Patel");
+});
+app.get("/about", (req, res) => {
+  res.send("Welcome in about page");
 });
 app.listen(HTTP_PORT);
